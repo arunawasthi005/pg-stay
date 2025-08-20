@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div
       className="h-screen flex flex-col items-center justify-center text-white text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('kris-tian-q1SgzwmvR1s-unsplash.jpg')" }}
+      style={{ backgroundImage: `${process.env.PUBLIC_URL}/elijah-pilchard-PkfZ6k0Gozo-unsplash.jpg` }}
     >
       <div className="bg-black bg-opacity-50 p-10 rounded-lg mt-1">
         <h1 className="text-4xl md:text-7xl font-bold">Welcome to PG Stay</h1>
