@@ -14,7 +14,7 @@ export default function Rooms() {
         {rooms.map((room) => (
           <div key={room.id} className="p-5 border rounded-lg shadow hover:shadow-lg">
             <img
-              src={`${process.env.PUBLIC_URL}/images/elijah-pilchard-PkfZ6k0Gozo-unsplash.jpg`}
+              src={`${process.env.PUBLIC_URL}/elijah-pilchard-PkfZ6k0Gozo-unsplash.jpg`}
               alt={room.name}
               className="rounded mb-3"
             />
